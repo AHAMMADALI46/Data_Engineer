@@ -17,3 +17,4 @@ Day to Day tasks of a Data Engineer:
 5. code & demo scalable frameworks/data pipelines
 6. monitor existing pipelines.
 7. Support testing activities, fix bugs etc.
+ 
