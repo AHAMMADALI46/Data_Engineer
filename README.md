@@ -43,3 +43,32 @@ Scale out:
 1. Use multiple commodity (economical) machines and distribute the load of storage/processing among them
 2. Economical and quick to implement as it focuses on distribution of load.
 3. Instead of having a single system with 10 TB of storage and 80 GB of RAM, use 40 machines with 256GB of storage and 2GB of RAM.
+
+
+Challenges of Scaling out:
+Need a new system:
+1. with new database management other than relational databases capable of handling unstructured as well as structured data.
+2. To process huge datasets on large clusters of computers than on a single system.
+
+To manage clusters in which:
+1. Nodes fail frequently
+2. Number of nodes keep changing
+3. Take care of communication between the nodes
+4. During analysis, take results from different machines and merge/aggregate them.
+
+How to solve the problems we need common infrastructure which is:
+1. Efficient
+2. Easy to use
+3. Reliable.
+
+What is Hadoop?
+1. open source distributed data processing cluster
+2. Data processed in Hadoop Distributed file system (HDFS)
+3. Hadoop is that new framework which helps to solve the problem of data explosion.
+4. Hadoop is an open source, Java-based programming framework that supports the processing of large datasets in a distributed computing environment.
+5. Hadoop provides: A reliable, scalable platform for storage and analysis.
+6. it is based on Google file system or GFS.
+7. Hadoop runs a number of applications on distributed systems with thousands of nodes involving petabytes of data.
+8. It has a distributed file system, called the Hadoop Distributed file system or HDFS, which enables fast data transfer among the nodes.
+9. It leverages a distributed computation framework called Map reduce.
+10. Resource Management is performed by YARN.
