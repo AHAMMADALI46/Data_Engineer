@@ -109,3 +109,9 @@ Key Big data applications and their required tool/techniques:
 2. Data warehouse augmentation: Integrate big data and data warehouse capabilities to increase 
 operational efficiency.
 3. Internet of things: Harnessing data from sensors and actuators to make a connected world.
+
+Key Big data use cases in E-commerce:
+1. Predicting trends
+2. Pricing optimization
+2. recommendations systems
+4. customer services.
