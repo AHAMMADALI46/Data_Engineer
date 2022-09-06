@@ -72,3 +72,40 @@ What is Hadoop?
 8. It has a distributed file system, called the Hadoop Distributed file system or HDFS, which enables fast data transfer among the nodes.
 9. It leverages a distributed computation framework called Map reduce.
 10. Resource Management is performed by YARN.
+
+Hadoop Introduction: Continued:
+Problems with distributed processing:
+1. Hardware failure: can be solved by redundancy
+2. coordinating the tasks and combining results from all machines
+Hadoop takes care of the above complexities and the challenges of network/distributed programming
+1. HDFS (for storage)
+2. Map reduce (for processing)
+Two key concepts:
+1. storage (of data and results)
+2. Processing (Analysis of data)
+
+
+SPARK:
+1. spark core, RDD,DF,DS, SQL-API's for basic data processing needs for
+2. spark streaming-API for real time processing needs for speed layer of data pipeline.
+3. Spark ML Lib-API for Machine Learning Processing needs
+4. Graph X-API for needs of complex processing of Graph based data models with nodes and interactions between them.
+
+
+service models based:
+infrastructure as a service (Iaas)-VM, EC2 etc
+"Platform as a service (Paas)":-EMR, HD insight, S3, ADLS etc.
+Software as a service (SaaS)-Data factory, databricks, etc..
+
+Deployment models:
+Private cloud: only for personnel and secure data cloud storage.
+public cloud: mostly public social websites eg. facebook, Twitter and Linkedin
+Hybrid cloud: combination of two private and public clouds.
+
+Major cloud providers are Amazoh web services (AWS), Microsoft Azure services, Google Cloud platform, AKamai, Alibab cloud, etc..
+
+Key Big data applications and their required tool/techniques:
+1. Operations Analysis: Analyze a variety of machine data for improved business results.
+2. Data warehouse augmentation: Integrate big data and data warehouse capabilities to increase 
+operational efficiency.
+3. Internet of things: Harnessing data from sensors and actuators to make a connected world.
